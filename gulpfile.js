@@ -4,6 +4,6 @@ var path = require('path')
 
 
 gulp.task('deploy', function(cb) {
-    return gulp.src('./build/**/*')
-    	.pipe(ghPages())
+  return gulp.src('./build/**/*')
+    .pipe(ghPages())
 })
